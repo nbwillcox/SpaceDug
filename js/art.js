@@ -127,14 +127,15 @@
     }
     return c;
   };
+  /* the canvas context keeps the 1.25x scale from buildDirt, so these take plain logical coordinates */
   A.carve = function (cv, px, py, r) {
     const x = cv.getContext('2d');
     x.save(); x.globalCompositeOperation = 'destination-out'; x.fillStyle = '#000';
-    x.beginPath(); x.arc(px * SC, (py - DY) * SC, r * SC, 0, TAU); x.fill(); x.restore();
+    x.beginPath(); x.arc(px, py - DY, r, 0, TAU); x.fill(); x.restore();
   };
   A.carveRect = function (cv, x0, y0, w, h) {
     const x = cv.getContext('2d');
-    x.save(); x.globalCompositeOperation = 'destination-out'; x.fillStyle = '#000'; x.fillRect(x0 * SC, (y0 - DY) * SC, w * SC, h * SC); x.restore();
+    x.save(); x.globalCompositeOperation = 'destination-out'; x.fillStyle = '#000'; x.fillRect(x0, y0 - DY, w, h); x.restore();
   };
 
   /* ---- sky, surface walkway and the dark cavity behind the dirt (cached) ---- */
