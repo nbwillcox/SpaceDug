@@ -14,7 +14,9 @@ Everything is generated in code: sprites are vector-drawn on the fly, and all so
 | Fire the pump hose, then hold to inflate | Hold `Space` (or left mouse button) |
 | Pause | `P` or `Esc` |
 
-Desktop browsers with a keyboard only for now.
+### On a phone or tablet
+
+Play in portrait. Hold the left thumb anywhere in the lower-left area for a floating stick (dig and move), hold **PUMP** with the right thumb to fire the hose and inflate aliens, and use the pause button for the menu. The on-screen controls appear on touch devices automatically; Settings has size, opacity and a left-handed layout. Use your browser's *Add to Home Screen* to install it as a full-screen app.
 
 ## Gameplay
 
