@@ -18,6 +18,10 @@ Everything is generated in code: sprites are vector-drawn on the fly, and all so
 
 Play in portrait. Hold the left thumb anywhere in the lower-left area for a floating stick (dig and move), hold **PUMP** with the right thumb to fire the hose and inflate aliens, and use the pause button for the menu. The on-screen controls appear on touch devices automatically; Settings has size, opacity and a left-handed layout. Use your browser's *Add to Home Screen* to install it as a full-screen app.
 
+### Controller
+
+Plug in a gamepad and it just works: left stick or D-pad digs and moves, hold **A / RT** to pump the hose, **Start** pauses. In menus the D-pad / left stick moves the highlight, **A** selects, **B** goes back and **Start** plays or resumes. **Settings -> Controller** has a dead-zone slider and lets you remap every button.
+
 ## Gameplay
 
 - **The goal:** every level hides rare minerals in the rock. Find enough of them to meet the quota and the extraction hatch opens: climb back to the surface to finish the level. Or pop every alien and clear the level that way.
